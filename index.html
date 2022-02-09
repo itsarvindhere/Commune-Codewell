@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;700;800;900&display=swap');
+    </style>
+    <title>Commune</title>
+</head>
+<body class="bg-[#f6f9fe] font-['Nunito_Sans']">
+    <div class="container px-4 sm:px-0 mx-auto my-4 lg:my-10 xl:my-20">
+      <!-- NAVBAR -->
+      <nav class="flex items-center">
+        <img src="./Assets/Logo.svg" class="mr-auto"/>
+        <ul class="hidden lg:flex items-center gap-5 text-[#828284] text-lg">
+          <li><a class="font-semibold" href="#">Features</a></li>
+          <li><a class="font-semibold" href="#">Affiliates</a></li>
+          <li><a class="font-semibold" href="#">Pricing</a></li>
+          <li><a class="font-semibold" href="#">Communities</a></li>
+          <button class="bg-[#372865] text-white py-4 px-6 rounded rounded-lg font-bold">Join Waitlist</button>
+        </ul>
+        <img src="./Assets/Hamburger Menu.svg" class="lg:hidden" />
+      </nav>
+      <!-- MAIN CONTENT -->
+      <main class="flex-col flex lg:flex-row lg:gap-20 items-center mt-10 sm:mt-20">
+        <!-- LEFT SIDE -->
+        <div class="w-full text-center lg:text-left lg:w-3/5">
+          <span class="inline-block bg-[#372865] rounded-full text-[#c7bce2] px-6 py-2 text-sm sm:text-md lg:text-lg">We are now allowing early-access for users. <span class="underline font-semibold">Learn more.</span></span>
+          <h2 class="text-[#353252] font-bold sm:font-extrabold  text-4xl sm:text-[3rem] lg:text-[4rem] mt-10 leading-tight">Build a highly engaged community with no effort.</h2>
+          <p class="sm:px-20 lg:px-0 mt-5 lg:mt-0 text-[#828284] text-lg sm:text-xl">Commune offers the tools you need to build a highly engaged community with little to no effort. Simply setup your Commune workspace, and manage everything from members to content from one central dashboard.</p>
+          <div class="mt-5 flex flex-col sm:flex-row justify-center lg:justify-start items-stretch sm:items-center gap-5">
+            <input class="py-4 px-6 rounded sm:w-3/5 rounded-lg placeholder:text-[#cdcfd1] placeholder:text-md sm:placeholder:text-lg border-[1px] border-[#cdcfd1]" type="email" placeholder="Enter your e-mail address">
+            <button class="bg-[#372865] text-white py-4 px-6 rounded rounded-lg font-bold">Join Waitlist</button>
+          </div>
+        </div>
+        <!-- RIGHT SIDE -->
+        <div class="hidden lg:block w-[400px] ml-auto">
+          <img src="./Assets/Illustration.png" />
+        </div>
+      </main>
+
+      <!-- COMPANIES -->
+      <div class="mt-20">
+        <p class="text-[#78797a] text-lg sm:text-xl font-bold">Used by these companies:</p>
+        <ul class="flex flex-wrap gap-3 mt-5">
+          <li><img src="./Assets/Atlassian Icon.svg" /></li>
+          <li><img src="./Assets/Behance Icon.svg" /></li>
+          <li><img src="./Assets/Bing Icon.svg" /></li>
+          <li><img src="./Assets/Bitbucket Icon.svg" /></li>
+          <li><img src="./Assets/Dropbox Icon.svg" /></li>
+          <li><img src="./Assets/Twitch Icon.svg" /></li>
+          <li><img src="./Assets/Twitter Icon.svg" /></li>
+        </ul>
+      </div>
+    </div>
+</body>
+</html>
